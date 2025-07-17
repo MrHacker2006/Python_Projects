@@ -37,11 +37,14 @@ pip install PyPDF2
 ✅ Merged-PDF.pdf
 
 
-## 💡 Example
+## 💡Example
 
+```
 How many PDF's you want to merge
 3
 
 Enter the name of the pdf 1: file1.pdf
 Enter the name of the pdf 2: file2.pdf
 Enter the name of the pdf 3: file3.pdf
+```
+
