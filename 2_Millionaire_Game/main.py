@@ -28,22 +28,25 @@ prize=['10$', '20$', '40$', '80$', '160$', '320$', '640$', '1280$', '2560$', '51
 
 i=0
 random.shuffle(questions)
-for question in questions:
-    print(question[0])
-    print(f"a.Enter 1 for {question[1]}")
-    print(f"b.Enter 2 for {question[2]}")
-    print(f"c.Enter 3 for {question[3]}")
-    print(f"d.Enter 4 for {question[4]}")
-     
-    a = int(input("Enter the number for the correct option.\n")) 
-    if a == question[5]:
-        print("Congratulations!,You are correct")
-        print(f"You have won {prize[i]}\n")
-        print("Now lets move on to the next question\n")
-    else:
-        print(f"Opps! Incorrect Answer, the correct answer is {question[5]}")
-        print("Better luck next time!\n ")
-        print("Thank you for joining.")
-        break
-    i +=1
+try:
+    for question in questions:
+        print(question[0])
+        print(f"a.Enter 1 for {question[1]}")
+        print(f"b.Enter 2 for {question[2]}")
+        print(f"c.Enter 3 for {question[3]}")
+        print(f"d.Enter 4 for {question[4]}")
+        
+        a = int(input("Enter the number for the correct option.\n")) 
+        if a == question[5]:
+            print("Congratulations!,You are correct")
+            print(f"You have won {prize[i]}\n")
+            print("Now lets move on to the next question\n")
+        else:
+            print(f"Opps! Incorrect Answer, the correct answer is {question[5]}")
+            print("Better luck next time!\n ")
+            print("Thank you for joining.")
+            break
+        i +=1
+except Exception as e:
+    print("Unknown Error Occured!")
     
