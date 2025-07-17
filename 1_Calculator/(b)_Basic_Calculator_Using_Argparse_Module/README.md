@@ -1,6 +1,6 @@
 # 🧮 Basic Calculator Using argparse
 
-### Project Type: 🤝Made by Myself
+### 🤝Project Type: Made with Help
 
 This is a simple command-line calculator built using Python's built-in argparse module. It allows you to perform basic arithmetic operations—addition, subtraction, multiplication, and division—by passing arguments directly from the terminal.
 
