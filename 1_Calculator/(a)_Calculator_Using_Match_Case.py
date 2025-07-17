@@ -15,6 +15,6 @@ try:
         case 4:
             print(f"The Division of a and b is {a/b}")
         case default:
-            print("Unknown Error Occured!")
+            print("Unknown Error Occured!!")
 except ZeroDivisionError:
-    print("Division by Zero is not possible!")
+    print("Division by Zero is not possible!!")
