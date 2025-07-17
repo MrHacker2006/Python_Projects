@@ -1,50 +1,37 @@
-# 🧮 Basic Calculator Using Match Case
+# Basic Calculator using Match Case 🧮
 
 ### ✅ Project Type: Made by Myself
 
-This is a simple Python-based calculator that uses the `match-case` statement (Python 3.10+) to perform basic arithmetic operations based on user input.
+This is a simple calculator I built using Python’s `match-case` feature, which is similar to switch-case in other programming languages. It takes two numbers from the user and performs a basic arithmetic operation (add, subtract, multiply, or divide) based on their choice.
 
 ---
 
-## 📌 Features
+## 🔧 Features
 
 - Addition
 - Subtraction
 - Multiplication
-- Division (with exception handling for division by zero)
-- Clean CLI-based user interface
+- Division (with error handling for division by zero)
+- Simple, easy-to-use input system
+- Built using the new `match-case` syntax introduced in Python 3.10+
 
 ---
 
-## 🧠 Technologies Used
+## 📌 How to Use
 
-- Python 3.10+
-- Match-case control structure
-- Exception handling
+1. Run the script in any terminal that supports Python.
+2. Enter two numbers when prompted.
+3. Choose the operation by entering a number (1 to 4).
+4. Get the result based on your input.
 
----
-
-## 🚀 How It Works
-
-1. Takes two numeric inputs from the user.
-2. Asks the user to select an operation:
-   - 1: Addition
-   - 2: Subtraction
-   - 3: Multiplication
-   - 4: Division
-3. Performs the operation using Python's `match-case` statement.
-4. Handles division-by-zero errors gracefully.
-
----
-
-## 🧪 Example
+Example:
 
 ```bash
-Enter The Value of a: 10
-Enter The Value of b: 5
+Enter The Value of a: 12
+Enter The Value of b: 4
 Enter 1 for Addition
 Enter 2 for Subtraction
 Enter 3 for Multiplication
 Enter 4 for Division
-3
-The Multiplication of a and b is 50
+2
+The Subtraction of a and b is 8
