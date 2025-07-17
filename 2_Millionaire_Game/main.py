@@ -1,3 +1,5 @@
+import random
+
 questions =  [
     ["What is the capital of France?", "Rome", "Madrid", "Paris", "Berlin", 3],
     ["Who developed the theory of relativity?", "Tesla", "Einstein", "Newton", "Darwin", 2],
@@ -25,7 +27,7 @@ prize=['10$', '20$', '40$', '80$', '160$', '320$', '640$', '1280$', '2560$', '51
  '10240$', '20480$', '40960$', '81920$', '163840$', '327680$', '655360$', '1310720$', '2621440$', '5242880$']
 
 i=0
-
+random.shuffle(questions)
 for question in questions:
     print(question[0])
     print(f"a.Enter 1 for {question[1]}")
