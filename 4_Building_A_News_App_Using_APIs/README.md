@@ -1,5 +1,7 @@
 # 📰 News Fetcher with Python and NewsAPI
 
+### 🤝Project Type: Made with Help
+
 This is a simple Python script that lets you **search for the most popular news articles** on any topic using the [NewsAPI](https://newsapi.org/). You enter a topic, and it returns a list of headlines along with their URLs — clean and straight from the command line.
 
 ---
