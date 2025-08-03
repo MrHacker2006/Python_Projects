@@ -8,38 +8,38 @@ This repo is a personal collection of Python projects that I’ve built entirely
 
 ## 📂 Project List
 
-| # Beginners Projects :-        |
-|--------------------------------|
-| 1.Random Password Generator 🎯 |
-| 2.Calculator (CLI)             |
-| 3.Dice Rolling Simulator       |
-| 4.Number Guessing Game         |
-| 5.Mad Libs Game                |
-| 6.QR Code Generator            |
-| 7.Countdown Timer              |
-| 8.Digital Clock                |
-|--------------------------------|
-|                                
-|                                  
-|                                
-|                              
-|                               
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+|🟢Beginner-Level Projects :-             |
+|------------------------------------------|
+| 1.Random Password Generator 🎯           |
+| 2.Calculator (CLI)                       |
+| 3.Dice Rolling Simulator                 |
+| 4.Number Guessing Game                   |
+| 5.Mad Libs Game                          |
+| 6.QR Code Generator                      |
+| 7.Countdown Timer                        |
+| 8.Digital Clock                          |
+|------------------------------------------|
+|🟡Intermediate-Level Projects:-           |                                
+|------------------------------------------|                              
+| 9.Todo App(CLI)                          |                            
+| 10.Alarm Clock                           |                              
+| 11.Expense Tracker(CLI)                  |                            
+| 12.File Organizer                        |
+| 13.Rock Paper Scissors with Score        |   
+| 14.Contact Book                          |
+| 15.Binary Search Visualizer(CLI)         |
+|------------------------------------------|
+| 🔴Advanced-Level Projects               |
+|------------------------------------------|
+| 16.Web Scrapper with GUI                 | 
+| 17.Weather App(Api-Based)                |
+| 18.Chat Application(CLI or GUI)          |
+| 19.PDF Merger/Splitter                   |
+| 20.Portfolio Website(Flask/Django)       |
+| 21.ML Spam Detector                      |
+| 22.CSV Data Analyzer                     |
+|------------------------------------------|
+
 ---
 
 ## 💬 Why This Repo Exists
