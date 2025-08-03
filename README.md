@@ -9,7 +9,7 @@ This repo is a personal collection of Python projects that I’ve built entirely
 ## 📂 Project List
 
 |🟢Beginner-Level Projects :-             |
-|---------------------------------|
+|----------------------------------|
 | 1.Random Password Generator 🎯           |
 | 2.Calculator (CLI)                       |
 | 3.Dice Rolling Simulator                 |
@@ -18,9 +18,9 @@ This repo is a personal collection of Python projects that I’ve built entirely
 | 6.QR Code Generator                      |
 | 7.Countdown Timer                        |
 | 8.Digital Clock                          |
-|---------------------------------|
+|----------------------------------|
 |🟡Intermediate-Level Projects:-           |                                
-|---------------------------------|                              
+|----------------------------------|                              
 | 9.Todo App(CLI)                          |                            
 | 10.Alarm Clock                           |                              
 | 11.Expense Tracker(CLI)                  |                            
@@ -28,9 +28,9 @@ This repo is a personal collection of Python projects that I’ve built entirely
 | 13.Rock Paper Scissors with Score        |   
 | 14.Contact Book                          |
 | 15.Binary Search Visualizer(CLI)         |
-|------------------------------------------|
+|----------------------------------|
 | 🔴Advanced-Level Projects               |
-|---------------------------------|
+|----------------------------------|
 | 16.Web Scrapper with GUI                 | 
 | 17.Weather App(Api-Based)                |
 | 18.Chat Application(CLI or GUI)          |
@@ -38,7 +38,7 @@ This repo is a personal collection of Python projects that I’ve built entirely
 | 20.Portfolio Website(Flask/Django)       |
 | 21.ML Spam Detector                      |
 | 22.CSV Data Analyzer                     |
-|---------------------------------|
+|----------------------------------|
 
 ---
 
