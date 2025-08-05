@@ -54,4 +54,4 @@ Every project here reflects what I’m learning, how I break down problems, and 
 ## 📌 Notes
 
 - Projects are added only after I’ve built them myself  
-- Progress is shared on [Gautam Gupta](https://www.linkedin.com/in/gupta-gautam-18-ds/) as soon as they are ready
+- Progress is shared on my Linkedin account :- [Gautam Gupta](https://www.linkedin.com/in/gupta-gautam-18-ds/) as soon as they are ready
