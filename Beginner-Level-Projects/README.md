@@ -45,7 +45,7 @@ After completing all beginner-level projects, I'll move on to:
 
 ## 📜 License
 
-This repository is licensed under the [MIT License](G:\My All CODES\5_Python_Projects\LICENSE).  
+This repository is licensed under the [MIT License](https://github.com/MrHacker2006/Python_Projects/blob/39fb5e74de23894dadee69847c9738acef73b410/LICENSE).  
 You’re free to use, modify, and share the code. Attribution is appreciated.
 
 ---
