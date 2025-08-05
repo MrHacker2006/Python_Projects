@@ -52,8 +52,8 @@ You’re free to use, modify, and share the code. Attribution is appreciated.
 
 ## 🔗 Connect with Me
 
-- GitHub: MrHacker2006 (https://github.com/MrHacker2006)
-- LinkedIn: Gautam Gupta (https://www.linkedin.com/in/gupta-gautam-18-ds/)
+- GitHub: [MrHacker2006](https://github.com/MrHacker2006)
+- LinkedIn: [Gautam Gupta](https://www.linkedin.com/in/gupta-gautam-18-ds/)
 
 ---
 
