@@ -22,7 +22,7 @@ Each folder in this repository contains:
 
 | S.No. | Project Name             | Tags                           | Status         |
 |-------|--------------------------|--------------------------------|----------------|
-| 1     | Random Password Generator| strings, random, logic         | ⬜ Not Started  |
+| 1     | Random Password Generator| strings, random, logic         | 🟡 In Progress |
 | 2     | Calculator (CLI)         | arithmetic, user input         | ⬜ Not Started  |
 | 3     | Dice Rolling Simulator   | random, loop                   | ⬜ Not Started  |
 | 4     | Number Guessing Game     | random, loops, conditions      | ⬜ Not Started  |
@@ -45,7 +45,7 @@ After completing all beginner-level projects, I'll move on to:
 
 ## 📜 License
 
-This repository is licensed under the [MIT License](LICENSE).  
+This repository is licensed under the [MIT License](G:\My All CODES\5_Python_Projects\LICENSE).  
 You’re free to use, modify, and share the code. Attribution is appreciated.
 
 ---

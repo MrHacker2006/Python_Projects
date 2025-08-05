@@ -10,7 +10,7 @@ This repo is a personal collection of Python projects that I’ve built entirely
 
 | 🟢 Beginner-Level Projects | Status       |
 |----------------------------|--------------|
-| 1. Random Password Generator 🎯 | ⬜ Not Started |
+| 1. Random Password Generator| 🟡 In Progress |
 | 2. Calculator (CLI)        | ⬜ Not Started |
 | 3. Dice Rolling Simulator  | ⬜ Not Started |
 | 4. Number Guessing Game    | ⬜ Not Started |
