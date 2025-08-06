@@ -43,7 +43,7 @@ if(char_pool == ""):
 
 gurranteed_chars = []
 
-enforce = input("Do You want one character from each type you have selcted? (Y/N) : ").strip().lower() in ['y', 'yes']
+enforce = input("\nDo You want one character from each type you have selcted? (Y/N) : ").strip().lower() in ['y', 'yes']
 print(enforce)
 match enforce:
      case True:
@@ -57,5 +57,28 @@ match enforce:
                 gurranteed_chars.append(random.choice(string.punctuation))
           print(gurranteed_chars)
           
-                
+          # finding lenght of the remaining password
+          required_len = length -len(gurranteed_chars)
+          print(required_len)
+          random_chars= []
+          
+          # Selecting remainging password
+          for i in range(required_len):
+                random_chars.append(random.choice(char_pool))
+          print(random_chars)     
+
+          # merging the both the lists
+          password_chars = gurranteed_chars + random_chars
+          print(password_chars)
+          
+          #shuffling the password_chars
+          random.shuffle(password_chars)
+          print(password_chars)
+
+          # Converting list to a string
+          final_password = "".join(password_chars)
+          print(final_password)
+          
+          # copying the password into your clipboard
+          pyperclip.copy(final_password)
 
