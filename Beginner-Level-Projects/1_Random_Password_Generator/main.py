@@ -15,11 +15,22 @@ while True:
                 include_number = input("Do you want to include Numbers ? (Y/N): ").strip().lower() in ['y', 'yes']
                 include_lowercase = input("Do you want to include Lowercase Letters ? (Y/N): ").strip().lower() in ['y', 'yes']
                 include_uppercase = input("Do you want to include Uppercase letters ? (Y/N): ").strip().lower() in ['y', 'yes']
-                include_normal_symbol = input("Do you want to include Normal Symbols ? (Y/N): ").strip().lower() in ['y', 'yes']
-                include_special_symbol = input("Do you want to include Special Symbols ? (Y/N): ").strip().lower() in ['y', 'yes']
+                include_punctuation = input("Do you want to include Punctuations ? (Y/N): ").strip().lower() in ['y', 'yes']
                 break
         else:
              print("Password length must be greater than zero")
     except ValueError:
         print("Please enter a vaild Natural Number!")
     
+# Character Pool Construction
+char_pool = ""
+if(include_number== True):
+      char_pool += string.digits    
+if(include_lowercase == True):
+      char_pool += string.ascii_lowercase
+if(include_uppercase == True):
+      char_pool += string.ascii_uppercase
+if(include_punctuation == True):
+      char_pool += string.punctuation
+
+print(char_pool)
