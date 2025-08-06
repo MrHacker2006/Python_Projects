@@ -71,7 +71,7 @@ match enforce:
           password_chars = gurranteed_chars + random_chars
           print(password_chars)
           
-          #shuffling the password_chars
+          #shuffling the list
           random.shuffle(password_chars)
           print(password_chars)
 
@@ -81,4 +81,24 @@ match enforce:
           
           # copying the password into your clipboard
           pyperclip.copy(final_password)
+    
+     case False:
+            random_chars = []
+            for i in range(length):
+                  random_chars.append(random.choice(char_pool))
+            print(random_chars)
+            
+            #shuffling the list
+            random.shuffle(random_chars)
+            print(random_chars)
+
+            # Converting the list into stirg
+            final_password = "".join(random_chars)
+            print(final_password)
+
+            # copying the password into your clipboard
+            pyperclip.copy(final_password)
+
+
+
 
