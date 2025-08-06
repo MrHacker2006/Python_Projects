@@ -25,7 +25,7 @@ while True:
 # Character Pool Construction
 char_pool = ""
 if(include_number== True):
-      char_pool += string.digits    
+      char_pool += string.digits   
 if(include_lowercase == True):
       char_pool += string.ascii_lowercase
 if(include_uppercase == True):
@@ -34,3 +34,28 @@ if(include_punctuation == True):
       char_pool += string.punctuation
 
 print(char_pool)
+
+# Password Generation
+
+if(char_pool == ""):
+     print("Choose any one choice among the provided")
+     sys.exit()
+
+gurranteed_chars = []
+
+enforce = input("Do You want one character from each type you have selcted? (Y/N) : ").strip().lower() in ['y', 'yes']
+print(enforce)
+match enforce:
+     case True:
+          if(include_number):
+                gurranteed_chars.append(random.choice(string.digits))
+          if(include_lowercase):
+                gurranteed_chars.append(random.choice(string.ascii_lowercase))
+          if(include_uppercase):
+                gurranteed_chars.append(random.choice(string.ascii_uppercase))
+          if(include_punctuation):
+                gurranteed_chars.append(random.choice(string.punctuation))
+          print(gurranteed_chars)
+          
+                
+
