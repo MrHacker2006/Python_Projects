@@ -41,63 +41,68 @@ if(char_pool == ""):
      print("Choose any one choice among the provided")
      sys.exit()
 
-gurranteed_chars = []
+resp = input("\nDo You want one character from each type you have selcted? (Y/N) : ").strip().lower()
+for resp in ['y', 'yes', 'n', 'no']:
+      print("please enter a valid choie!")
+      sys.exit()
 
-enforce = input("\nDo You want one character from each type you have selcted? (Y/N) : ").strip().lower() in ['y', 'yes']
+enforce = resp in ['y', 'yes']
 print(enforce)
-match enforce:
-     case True:
-          if(include_number):
-                gurranteed_chars.append(random.choice(string.digits))
-          if(include_lowercase):
-                gurranteed_chars.append(random.choice(string.ascii_lowercase))
-          if(include_uppercase):
-                gurranteed_chars.append(random.choice(string.ascii_uppercase))
-          if(include_punctuation):
-                gurranteed_chars.append(random.choice(string.punctuation))
-          print(gurranteed_chars)
-          
-          # finding lenght of the remaining password
-          required_len = length -len(gurranteed_chars)
-          print(required_len)
-          random_chars= []
-          
-          # Selecting remainging password
-          for i in range(required_len):
-                random_chars.append(random.choice(char_pool))
-          print(random_chars)     
 
-          # merging the both the lists
-          password_chars = gurranteed_chars + random_chars
-          print(password_chars)
-          
-          #shuffling the list
-          random.shuffle(password_chars)
-          print(password_chars)
+guranteed_chars = []
+if(enforce== True):
+    if(include_number):
+            guranteed_chars.append(random.choice(string.digits))
+    if(include_lowercase):
+            guranteed_chars.append(random.choice(string.ascii_lowercase))
+    if(include_uppercase):
+            guranteed_chars.append(random.choice(string.ascii_uppercase))
+    if(include_punctuation):
+            guranteed_chars.append(random.choice(string.punctuation))
+    print(guranteed_chars)
 
-          # Converting list to a string
-          final_password = "".join(password_chars)
-          print(final_password)
-          
-          # copying the password into your clipboard
-          pyperclip.copy(final_password)
+    # finding lenght of the remaining password
+    required_len = length -len(guranteed_chars)
+    print(required_len)
+    random_chars= []
+
+    # Selecting remainging password
+    for i in range(required_len):
+            random_chars.append(random.choice(char_pool))
+    print(random_chars)     
+
+    # merging the both the lists
+    password_chars = guranteed_chars + random_chars
+    print(password_chars)
+
+    #shuffling the list
+    random.shuffle(password_chars)
+    print(password_chars)
+
+    # Converting list to a string
+    final_password = "".join(password_chars)
+    print(final_password)
+
+    # copying the password into your clipboard
+    pyperclip.copy(final_password)
+
+else:
+    random_chars = []
+    for i in range(length):
+        random_chars.append(random.choice(char_pool))
+    print(random_chars)
     
-     case False:
-            random_chars = []
-            for i in range(length):
-                  random_chars.append(random.choice(char_pool))
-            print(random_chars)
-            
-            #shuffling the list
-            random.shuffle(random_chars)
-            print(random_chars)
+    #shuffling the list
+    random.shuffle(random_chars)
+    print(random_chars)
 
-            # Converting the list into stirg
-            final_password = "".join(random_chars)
-            print(final_password)
+    # Converting the list into stirg
+    final_password = "".join(random_chars)
+    print(final_password)
 
-            # copying the password into your clipboard
-            pyperclip.copy(final_password)
+    # copying the password into your clipboard
+    pyperclip.copy(final_password)
+        
 
 
 
