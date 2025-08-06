@@ -24,16 +24,16 @@ while True:
     
 # Character Pool Construction
 char_pool = ""
-if(include_number== True):
+if(include_number):
       char_pool += string.digits   
-if(include_lowercase == True):
+if(include_lowercase ):
       char_pool += string.ascii_lowercase
-if(include_uppercase == True):
+if(include_uppercase ):
       char_pool += string.ascii_uppercase
-if(include_punctuation == True):
+if(include_punctuation ):
       char_pool += string.punctuation
 
-print(char_pool)
+# print(char_pool)
 
 # Password Generation
 
@@ -42,49 +42,53 @@ if(char_pool == ""):
      sys.exit()
 
 resp = input("\nDo You want one character from each type you have selcted? (Y/N) : ").strip().lower()
-for resp in ['y', 'yes', 'n', 'no']:
-      print("please enter a valid choie!")
-      sys.exit()
+
+if resp not in ['y', 'yes', 'n', 'no']:  
+    print("Please enter a valid choice!")  
+    sys.exit()  # or continue to re-prompt  
+
 
 enforce = resp in ['y', 'yes']
-print(enforce)
+# print(enforce)
 
-guranteed_chars = []
+guaranteed_chars = []
 if(enforce== True):
     if(include_number):
-            guranteed_chars.append(random.choice(string.digits))
+            guaranteed_chars.append(random.choice(string.digits))
     if(include_lowercase):
-            guranteed_chars.append(random.choice(string.ascii_lowercase))
+            guaranteed_chars.append(random.choice(string.ascii_lowercase))
     if(include_uppercase):
-            guranteed_chars.append(random.choice(string.ascii_uppercase))
+            guaranteed_chars.append(random.choice(string.ascii_uppercase))
     if(include_punctuation):
-            guranteed_chars.append(random.choice(string.punctuation))
-    print(guranteed_chars)
+            guaranteed_chars.append(random.choice(string.punctuation))
+    print(guaranteed_chars)
 
     # finding lenght of the remaining password
-    required_len = length -len(guranteed_chars)
-    print(required_len)
+    required_len = length -len(guaranteed_chars)
+    # print(required_len)
     random_chars= []
 
     # Selecting remainging password
     for i in range(required_len):
             random_chars.append(random.choice(char_pool))
-    print(random_chars)     
+    # print(random_chars)     
 
     # merging the both the lists
-    password_chars = guranteed_chars + random_chars
-    print(password_chars)
+    password_chars = guaranteed_chars + random_chars
+    # print(password_chars)
 
     #shuffling the list
     random.shuffle(password_chars)
-    print(password_chars)
+    # print(password_chars)
 
     # Converting list to a string
     final_password = "".join(password_chars)
-    print(final_password)
+    # print(final_password)
 
     # copying the password into your clipboard
     pyperclip.copy(final_password)
+    print(f"The Final Password is : {final_password}")
+    print("This password is copied in your clipboard automatically.")
 
 else:
     random_chars = []
@@ -102,8 +106,5 @@ else:
 
     # copying the password into your clipboard
     pyperclip.copy(final_password)
-        
-
-
-
-
+    print(f"The Final Password is : {final_password}")
+    print("This password is copied in your clipboard automatically.")
