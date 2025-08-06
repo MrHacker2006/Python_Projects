@@ -54,5 +54,5 @@ Feel free to fork, tweak, and build on it!
 
 ## 📜 License
 
-This project is released under the [MIT License](https://github.com/MrHacker2006/Python_Projects/blob/39fb5e74de23894dadee69847c9738acef73b410/LICENSE).  
+This project is released under the [MIT License](https://github.com/MrHacker2006/Python_Projects/blob/2bb25502ad904de62f0f5ee25f137341fe064169/LICENSE).  
 See the LICENSE file in the repo root for full details.
