@@ -52,7 +52,6 @@ if resp not in ['y', 'yes', 'n', 'no']:
 enforce = resp in ['y', 'yes']
 # print(enforce)
 
-
 guaranteed_chars = []
 if(enforce== True):
     if(include_number):
@@ -65,55 +64,45 @@ if(enforce== True):
             guaranteed_chars.append(random.choice(string.punctuation))
     # print(guaranteed_chars)
 
-
     # finding lenght of the remaining password
     required_len = length -len(guaranteed_chars)
     # print(required_len)
     random_chars= []
-
 
     # Selecting remainging password
     for i in range(required_len):
             random_chars.append(random.choice(char_pool))
     # print(random_chars)     
 
-
     # merging the both the lists
     password_chars = guaranteed_chars + random_chars
     # print(password_chars)
-
 
     #shuffling the list
     random.shuffle(password_chars)
     # print(password_chars)
 
-
     # Converting list to a string
     final_password = "".join(password_chars)
     # print(final_password)
-
 
     # copying the password into your clipboard
     pyperclip.copy(final_password)
     print(f"The Final Password is : {final_password}")
     print("This password is copied in your clipboard automatically.")
-
 else:
     random_chars = []
     for i in range(length):
         random_chars.append(random.choice(char_pool))
     # print(random_chars)
     
-
     #shuffling the list
     random.shuffle(random_chars)
     # print(random_chars)
 
-
     # Converting the list into stirg
     final_password = "".join(random_chars)
     # print(final_password)
-
 
     # copying the password into your clipboard
     pyperclip.copy(final_password)
