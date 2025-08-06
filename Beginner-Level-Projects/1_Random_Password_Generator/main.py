@@ -23,3 +23,8 @@ while True:
     except ValueError:
         print("Please enter a vaild Natural Number!")
     
+# Storing the choices in form of boolean variables
+a=choice_Number.lowercase()
+print(a)
+print(b)
+print(c)
