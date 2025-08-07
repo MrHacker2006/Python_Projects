@@ -20,21 +20,27 @@ Each folder in this repository contains:
 
 ## 📊 Project Tracker
 
-| S.No. | Project Name             | Tags                           | Status         |
-|-------|--------------------------|--------------------------------|----------------|
-| 1     | Random Password Generator| strings, random, logic         | 🟡 In Progress |
-| 2     | Calculator (CLI)         | arithmetic, user input         | ⬜ Not Started  |
-| 3     | Dice Rolling Simulator   | random, loop                   | ⬜ Not Started  |
-| 4     | Number Guessing Game     | random, loops, conditions      | ⬜ Not Started  |
-| 5     | Mad Libs Game            | strings, input                 | ⬜ Not Started  |
-| 6     | QR Code Generator        | external libraries, image      | ⬜ Not Started  |
-| 7     | Countdown Timer          | time, logic                    | ⬜ Not Started  |
-| 8     | Digital Clock            | time, GUI (optional)           | ⬜ Not Started  |
+| S.No. | Project Name             | Tags                                   | Status         |
+|-------|--------------------------|----------------------------------------|----------------|
+| 1     | Random Password Generator| strings, random, logic                 | ✅ Completed   |
+| 2     | Calculator (CLI)         | arithmetic, user input                 | ⬜ Not Started  |
+| 3     | Hangman                  | strings, loops, conditions             | ⬜ Not Started  |
+| 4     | To-do-list               | list, file handling, logic, UI (opt)   | ⬜ Not Started  |
+| 5     | QR Code Generator        | external libraries, image              | ⬜ Not Started  |
+| 6     | Quiz App                 | input, logic, scoring system           | ⬜ Not Started  |
+| 7     | YouTube Video Downloader| API, external libraries, file handling | ⬜ Not Started  |
+| 8     | Weather App              | API, requests, JSON                    | ⬜ Not Started  |
+| 9     | Number Guessing Game     | random, loops, conditions              | ⬜ Not Started  |
+| 10    | Alarm Clock              | time, threading, GUI (optional)        | ⬜ Not Started  |
+| 11    | Mad Libs Generator       | strings, input                         | ⬜ Not Started  |
+| 12    | Currency Converter       | API, float, conditional logic          | ⬜ Not Started  |
+| 13    | Rock Paper Scissor       | random, conditions, input              | ⬜ Not Started  |
+| 14    | File Renamer Tool        | os module, file handling               | ⬜ Not Started  |
+| 15    | BMI Calculator           | float, input, condition                | ⬜ Not Started  |
 
 > Legend: ⬜ Not Started • 🟡 In Progress • ✅ Completed
 
 ---
-
 ## 📌 What's Next?
 
 After completing all beginner-level projects, I'll move on to:
