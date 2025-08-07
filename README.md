@@ -11,25 +11,24 @@ This repo is a personal collection of Python projects that I’ve built entirely
 | 🟢 Beginner-Level Projects     | Status         |
 |-------------------------------|----------------|
 | 1. Random Password Generator  | ✅ Completed   |
-| 2. Calculator (CLI)           | 🟡 In Progres |
-| 3. Hangman                    | ⬜ Not Started |
-| 4. To-do-list                 | ⬜ Not Started |
-| 5. QR Code Generator          | ⬜ Not Started |
-| 6. Quiz App                   | ⬜ Not Started |
-| 7. YouTube Video Downloader   | ⬜ Not Started |
-| 8. Weather App                | ⬜ Not Started |
-| 9. Number Guessing Game       | ⬜ Not Started |
-|10. Alarm Clock                | ⬜ Not Started |
-|11. Mad Libs Generator         | ⬜ Not Started |
-|12. Currency Converter         | ⬜ Not Started |
-|13. Rock Paper Scissor         | ⬜ Not Started |
-|14. File Renamer Tool          | ⬜ Not Started |
-|15. BMI Calculator             | ⬜ Not Started |
+| 2. Hangman                    | ⬜ Not Started |
+| 3. To-do-list                 | ⬜ Not Started |
+| 4. QR Code Generator          | ⬜ Not Started |
+| 5. Quiz App                   | ⬜ Not Started |
+| 6. YouTube Video Downloader   | ⬜ Not Started |
+| 7. Weather App                | ⬜ Not Started |
+| 8. Number Guessing Game       | ⬜ Not Started |
+| 9. Alarm Clock                | ⬜ Not Started |
+|10. Mad Libs Generator         | ⬜ Not Started |
+|11. Currency Converter         | ⬜ Not Started |
+|12. Rock Paper Scissor         | ⬜ Not Started |
+|13. File Renamer Tool          | ⬜ Not Started |
+|14. BMI Calculator             | ⬜ Not Started |
 
 
 | 🟡 Intermediate-Level Projects | Status       |
 |--------------------------------|--------------|
-|                                |               |
+| 1. Advanced_CLI_Calculator     |🟡 In Progres|
 |                                |              |
 
 | 🔴 Advanced-Level Projects | Status       |
