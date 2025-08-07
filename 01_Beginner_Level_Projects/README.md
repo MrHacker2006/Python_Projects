@@ -23,7 +23,7 @@ Each folder in this repository contains:
 | S.No. | Project Name             | Tags                                   | Status         |
 |-------|--------------------------|----------------------------------------|----------------|
 | 1     | Random Password Generator| strings, random, logic                 | ✅ Completed   |
-| 2     | Calculator (CLI)         | arithmetic, user input                 | ⬜ Not Started  |
+| 2     | Calculator (CLI)         | arithmetic, user input                 | 🟡 In Progres  |
 | 3     | Hangman                  | strings, loops, conditions             | ⬜ Not Started  |
 | 4     | To-do-list               | list, file handling, logic, UI (opt)   | ⬜ Not Started  |
 | 5     | QR Code Generator        | external libraries, image              | ⬜ Not Started  |

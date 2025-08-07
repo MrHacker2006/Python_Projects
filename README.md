@@ -11,7 +11,7 @@ This repo is a personal collection of Python projects that I’ve built entirely
 | 🟢 Beginner-Level Projects     | Status         |
 |-------------------------------|----------------|
 | 1. Random Password Generator  | ✅ Completed   |
-| 2. Calculator (CLI)           | ⬜ Not Started |
+| 2. Calculator (CLI)           | 🟡 In Progres |
 | 3. Hangman                    | ⬜ Not Started |
 | 4. To-do-list                 | ⬜ Not Started |
 | 5. QR Code Generator          | ⬜ Not Started |
