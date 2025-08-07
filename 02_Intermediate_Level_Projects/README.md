@@ -29,7 +29,7 @@ Each folder in this repository typically contains:
 
 | S.No. | Project Name            | Tags                                          | Status         |
 |-------|-------------------------|-----------------------------------------------|----------------|
-| 1     | Advance_CLI_Calculator  | argparse, CLI tools, modularity, math, logic  | 🟡 In Progress |
+| 1     | Advanced_CLI_Calculator  | argparse, CLI tools, modularity, math, logic  | 🟡 In Progress |
 
 > Legend: ⬜ Not Started • 🟡 In Progress • ✅ Completed
 
