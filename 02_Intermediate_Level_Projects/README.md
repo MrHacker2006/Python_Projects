@@ -34,7 +34,6 @@ Each folder in this repository typically contains:
 > Legend: ⬜ Not Started • 🟡 In Progress • ✅ Completed
 
 ---
-
 ## 📌 What's Next?
 
 After completing all Intermediate-level projects, I'll move on to:
